@@ -8,6 +8,7 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
+# typically, you wont put API key in code, but its necessary for this challenge
 API_KEY = "eb86a9144e200d6ce1dc401bdebed3cdf6511c5c"
 BASE_URL = "http://www.giantbomb.com/api"
 
