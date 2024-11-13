@@ -1,5 +1,13 @@
 # grav-giant-test
 
+this implements the Gravie [challenge](https://github.com/gravieinc/gravie-developer-test)
+
+
+follow steps below to build/run docker image, 
+then open browser to confirm search and checkout works
+
+
+
 
 
 # help
