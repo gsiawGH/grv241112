@@ -2,9 +2,7 @@
 name = "grav-giant-test"
 version = "0.1.0"
 description = "Add your description here"
-authors = [
-    { name = "g.siaw", email = "garysiaw@yahoo.com" }
-]
+authors = [{ name = "g.siaw", email = "gsiaw.dev@gmail.com" }]
 dependencies = [
     "fastapi>=0.115.5",
     "pydantic>=2.9.2",
