@@ -1,4 +1,4 @@
-# grav-giant-test
+# Gravie Challenge
 
 this implements the Gravie [challenge](https://github.com/gravieinc/gravie-developer-test)
 
