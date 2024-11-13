@@ -66,7 +66,7 @@ async def search_games(query: str) -> List[Game]:
 @app.get("/search/{query}", response_class=HTMLResponse)
 async def search(query: str):
     games = await search_games(query)
-    html_content = "<h1>Search Results</h1>"
+    html_content = f"<h1>Search Results for '{query}'</h1><br/><br/> <a href='/checked_out'>Checked Out</a><br/><br/>"
     for game in games:
         html_content += f"""
         <div>
